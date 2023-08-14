@@ -157,6 +157,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hgv-xf-LKD">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.36746712544753113" green="0.88891607041310783" blue="0.71350516709423217" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
