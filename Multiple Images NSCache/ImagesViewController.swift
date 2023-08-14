@@ -14,6 +14,9 @@ class ImagesViewController: UIViewController {
     var imageCacheForCollection = NSCache<NSString, UIImage>()
     var tImages = 0
     
+    // Image selected handler closure
+        var imageSelectedHandler: ((UIImage) -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -43,5 +46,10 @@ extension ImagesViewController : UICollectionViewDelegate, UICollectionViewDataS
         return CGSize(width: size, height: size)
     }
     
-    
+    // didSelectItemAt method to use the imageSelectedHandler
+        func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+            if let selectedImage = imageCacheForCollection.object(forKey: NSString(string: "\(indexPath.item)")) {
+                imageSelectedHandler?(selectedImage)
+            }
+        }
 }

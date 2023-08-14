@@ -105,7 +105,15 @@ class ViewController: UIViewController {
             vc?.imageCacheForCollection = imageToCache
             vc?.tImages = dogImageAllLinks.count
             vc?.title = "Images From Cache"
-            navigationController?.pushViewController(vc!, animated: true)
+        // Set the imageSelectedHandler to navigate to ImageDisplayViewController
+               vc?.imageSelectedHandler = { [weak self] (selectedImage) in
+                   if let displayVC = self?.storyboard?.instantiateViewController(withIdentifier: "ImageDisplayViewController") as? ImageDisplayViewController {
+                       displayVC.image = selectedImage
+                       self?.navigationController?.pushViewController(displayVC, animated: true)
+                   }
+               }
+               
+               navigationController?.pushViewController(vc!, animated: true)
     }
 }
 

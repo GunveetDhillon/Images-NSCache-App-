@@ -19,6 +19,7 @@
 		FB4CCCA72A89F80100DB65FF /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCCA62A89F80100DB65FF /* ImagesViewController.swift */; };
 		FB4CCCA92A8A0FDE00DB65FF /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCCA82A8A0FDE00DB65FF /* MyCollectionViewCell.swift */; };
 		FB4CCCAB2A8A152900DB65FF /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCCAA2A8A152900DB65FF /* DogData.swift */; };
+		FB4CCCAD2A8A269200DB65FF /* ImageDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCCAC2A8A269200DB65FF /* ImageDisplayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		FB4CCCA62A89F80100DB65FF /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
 		FB4CCCA82A8A0FDE00DB65FF /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		FB4CCCAA2A8A152900DB65FF /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
+		FB4CCCAC2A8A269200DB65FF /* ImageDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				FB4CCC782A89E71800DB65FF /* SceneDelegate.swift */,
 				FB4CCC7A2A89E71800DB65FF /* ViewController.swift */,
 				FB4CCC7C2A89E71800DB65FF /* Main.storyboard */,
+				FB4CCCAC2A8A269200DB65FF /* ImageDisplayViewController.swift */,
 				FB4CCCA82A8A0FDE00DB65FF /* MyCollectionViewCell.swift */,
 				FB4CCCAA2A8A152900DB65FF /* DogData.swift */,
 				FB4CCCA62A89F80100DB65FF /* ImagesViewController.swift */,
@@ -269,6 +272,7 @@
 			files = (
 				FB4CCC7B2A89E71800DB65FF /* ViewController.swift in Sources */,
 				FB4CCCA92A8A0FDE00DB65FF /* MyCollectionViewCell.swift in Sources */,
+				FB4CCCAD2A8A269200DB65FF /* ImageDisplayViewController.swift in Sources */,
 				FB4CCC772A89E71800DB65FF /* AppDelegate.swift in Sources */,
 				FB4CCCA72A89F80100DB65FF /* ImagesViewController.swift in Sources */,
 				FB4CCCAB2A8A152900DB65FF /* DogData.swift in Sources */,
