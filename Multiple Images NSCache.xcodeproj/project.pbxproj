@@ -16,6 +16,9 @@
 		FB4CCC8E2A89E71900DB65FF /* Multiple_Images_NSCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCC8D2A89E71900DB65FF /* Multiple_Images_NSCacheTests.swift */; };
 		FB4CCC982A89E71900DB65FF /* Multiple_Images_NSCacheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCC972A89E71900DB65FF /* Multiple_Images_NSCacheUITests.swift */; };
 		FB4CCC9A2A89E71900DB65FF /* Multiple_Images_NSCacheUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCC992A89E71900DB65FF /* Multiple_Images_NSCacheUITestsLaunchTests.swift */; };
+		FB4CCCA72A89F80100DB65FF /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCCA62A89F80100DB65FF /* ImagesViewController.swift */; };
+		FB4CCCA92A8A0FDE00DB65FF /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCCA82A8A0FDE00DB65FF /* MyCollectionViewCell.swift */; };
+		FB4CCCAB2A8A152900DB65FF /* DogData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4CCCAA2A8A152900DB65FF /* DogData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FB4CCC932A89E71900DB65FF /* Multiple Images NSCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiple Images NSCacheUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB4CCC972A89E71900DB65FF /* Multiple_Images_NSCacheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiple_Images_NSCacheUITests.swift; sourceTree = "<group>"; };
 		FB4CCC992A89E71900DB65FF /* Multiple_Images_NSCacheUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiple_Images_NSCacheUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB4CCCA62A89F80100DB65FF /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		FB4CCCA82A8A0FDE00DB65FF /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		FB4CCCAA2A8A152900DB65FF /* DogData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				FB4CCC782A89E71800DB65FF /* SceneDelegate.swift */,
 				FB4CCC7A2A89E71800DB65FF /* ViewController.swift */,
 				FB4CCC7C2A89E71800DB65FF /* Main.storyboard */,
+				FB4CCCA82A8A0FDE00DB65FF /* MyCollectionViewCell.swift */,
+				FB4CCCAA2A8A152900DB65FF /* DogData.swift */,
+				FB4CCCA62A89F80100DB65FF /* ImagesViewController.swift */,
 				FB4CCC7F2A89E71900DB65FF /* Assets.xcassets */,
 				FB4CCC812A89E71900DB65FF /* LaunchScreen.storyboard */,
 				FB4CCC842A89E71900DB65FF /* Info.plist */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB4CCC7B2A89E71800DB65FF /* ViewController.swift in Sources */,
+				FB4CCCA92A8A0FDE00DB65FF /* MyCollectionViewCell.swift in Sources */,
 				FB4CCC772A89E71800DB65FF /* AppDelegate.swift in Sources */,
+				FB4CCCA72A89F80100DB65FF /* ImagesViewController.swift in Sources */,
+				FB4CCCAB2A8A152900DB65FF /* DogData.swift in Sources */,
 				FB4CCC792A89E71800DB65FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
